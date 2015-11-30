@@ -142,5 +142,4 @@ done`
 #
 # Run the program
 #
-echo "it worked!"
 exec "${JAVACMD}" -classpath "${classpath}" -Dclient.home=. biz.papercut.pcng.client.uit.UserClient "$@"
