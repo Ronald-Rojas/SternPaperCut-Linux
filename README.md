@@ -1,10 +1,13 @@
 # SternPaperCut-Linux
-This application is for the Stern papercut application. 
+This application enables the use of the NYU Stern Papercut application on linux based distributions. 
 
-In order to install the application download either the entire git repo or the tar file, which is the repo in a compressed version. 
+##Installation Instructions
+* Clone the repo: `git clone https://github.com/ronald-rojas/SternPaperCut-Linux.git'.
+* Run the installation script: 'sudo ./Install.sh'.
 
-To properly install the application run the exacutable file Install.sh. You will need sudo privileges in order to run the file. This application is meant to work with Java 8 but older versions of Java may work. 
-Use "sudo update-alternatives --config java" to change your default java version to java 8 if you are experiencing errors.
+##Notes
+You will need sudo privileges in order to run the file correctly. This application is meant to work with Java 8 but older versions of Java may work. 
+Make sure that Java 8 is your default java version if you are experiencing errors. Use "sudo update-alternatives --config java" to change your default java version to java 8. 
 
 
 This application has been tested on ubuntu 14.04 LTS.
